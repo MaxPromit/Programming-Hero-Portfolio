@@ -18,6 +18,7 @@ h2{
     font-size: 40px;
     margin-top: 35px;
     margin-bottom: 25px;
+    font-weight: 400;
 }
  h3 {
     margin-top: 35px;
@@ -54,6 +55,7 @@ span{
    
 }
 
+
 .half_width img{
     width:100%;
 }
@@ -64,4 +66,40 @@ span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+/* .experience2div{
+
+} */
+#experiences_area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
+section.experience-area h2 {
+    text-align: center;
 }
